@@ -1,0 +1,9 @@
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\bin\Debug\SqlParser.exe.config
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\bin\Debug\SqlParser.exe
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\bin\Debug\SqlParser.pdb
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\obj\Debug\SqlParser.csprojResolveAssemblyReference.cache
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\obj\Debug\SqlParser.Form1.resources
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\obj\Debug\SqlParser.Properties.Resources.resources
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\obj\Debug\SqlParser.csproj.GenerateResource.Cache
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\obj\Debug\SqlParser.exe
+c:\users\rodrigo\documents\visual studio 2012\Projects\SqlParser\SqlParser\obj\Debug\SqlParser.pdb

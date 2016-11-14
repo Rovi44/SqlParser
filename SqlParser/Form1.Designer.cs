@@ -35,12 +35,13 @@
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.SQL = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbDataBases = new System.Windows.Forms.ComboBox();
             this.txtConsulta = new System.Windows.Forms.TextBox();
             this.Administrar = new System.Windows.Forms.TabPage();
-            this.bdd = new System.Windows.Forms.TreeView();
             this.btnActualizar = new System.Windows.Forms.Button();
-            this.cbDataBases = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.bdd = new System.Windows.Forms.TreeView();
+            this.btnEjecutar = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.SQL.SuspendLayout();
             this.Administrar.SuspendLayout();
@@ -91,6 +92,7 @@
             // SQL
             // 
             this.SQL.BackColor = System.Drawing.Color.Transparent;
+            this.SQL.Controls.Add(this.btnEjecutar);
             this.SQL.Controls.Add(this.label3);
             this.SQL.Controls.Add(this.cbDataBases);
             this.SQL.Controls.Add(this.txtConsulta);
@@ -103,6 +105,23 @@
             this.SQL.Size = new System.Drawing.Size(548, 329);
             this.SQL.TabIndex = 0;
             this.SQL.Text = "SQL";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(166, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Usando:";
+            // 
+            // cbDataBases
+            // 
+            this.cbDataBases.FormattingEnabled = true;
+            this.cbDataBases.Location = new System.Drawing.Point(219, 18);
+            this.cbDataBases.Name = "cbDataBases";
+            this.cbDataBases.Size = new System.Drawing.Size(122, 21);
+            this.cbDataBases.TabIndex = 7;
             // 
             // txtConsulta
             // 
@@ -124,13 +143,6 @@
             this.Administrar.TabIndex = 1;
             this.Administrar.Text = "Administrar";
             // 
-            // bdd
-            // 
-            this.bdd.Location = new System.Drawing.Point(120, 6);
-            this.bdd.Name = "bdd";
-            this.bdd.Size = new System.Drawing.Size(302, 302);
-            this.bdd.TabIndex = 0;
-            // 
             // btnActualizar
             // 
             this.btnActualizar.Location = new System.Drawing.Point(6, 6);
@@ -141,22 +153,21 @@
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
-            // cbDataBases
+            // bdd
             // 
-            this.cbDataBases.FormattingEnabled = true;
-            this.cbDataBases.Location = new System.Drawing.Point(219, 18);
-            this.cbDataBases.Name = "cbDataBases";
-            this.cbDataBases.Size = new System.Drawing.Size(122, 21);
-            this.cbDataBases.TabIndex = 7;
+            this.bdd.Location = new System.Drawing.Point(120, 6);
+            this.bdd.Name = "bdd";
+            this.bdd.Size = new System.Drawing.Size(302, 302);
+            this.bdd.TabIndex = 0;
             // 
-            // label3
+            // btnEjecutar
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(166, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Usando:";
+            this.btnEjecutar.Location = new System.Drawing.Point(347, 16);
+            this.btnEjecutar.Name = "btnEjecutar";
+            this.btnEjecutar.Size = new System.Drawing.Size(113, 23);
+            this.btnEjecutar.TabIndex = 9;
+            this.btnEjecutar.Text = "Ejecutar Comando";
+            this.btnEjecutar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -188,6 +199,7 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbDataBases;
+        private System.Windows.Forms.Button btnEjecutar;
     }
 }
 
